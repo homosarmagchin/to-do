@@ -1,0 +1,29 @@
+.container{
+    position: relative;
+}
+.table {
+    position: absolute;
+    height: 100px;
+    width: 430px;
+    background-color: gray;
+    left: calc(32vw - 100px);
+    top: calc(32vh - 100px);
+}
+
+h1{
+    position: absolute;
+    left: 680px;
+}
+
+#shot-but{
+    position: absolute;
+    left: 400px;
+    top: 90px;
+}
+#appr-but{
+    position: absolute;
+    right: 375px;
+    top: 90px;
+    font-size: 25px;
+    padding: 20px;
+}
